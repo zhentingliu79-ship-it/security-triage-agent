@@ -1,0 +1,17 @@
+{
+  "name": "security-triage-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node src/cli.mjs demo",
+    "ask": "node src/cli.mjs ask",
+    "ask:local": "node src/cli.mjs ask-local",
+    "ask:local:reviewed": "node src/cli.mjs ask-local-reviewed",
+    "eval:local": "node src/eval-local.mjs",
+    "eval": "node src/eval.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

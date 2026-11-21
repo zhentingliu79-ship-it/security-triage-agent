@@ -1,0 +1,524 @@
+{
+  "scope": "Synthetic cases; archived scores with free-form outputs omitted.",
+  "runs": [
+    {
+      "name": "development_baseline",
+      "model": "qwen3:4b",
+      "startedAt": "2026-11-19T13:08:54.250Z",
+      "summary": {
+        "total": 10,
+        "evaluated": 10,
+        "verdictCorrect": 7,
+        "priorityCorrect": 8,
+        "evidenceValid": 10,
+        "failedOrNoDraft": 0
+      },
+      "cases": [
+        {
+          "id": "F001",
+          "evaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F002",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F003",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F004",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F005",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F006",
+          "evaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F007",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F008",
+          "evaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F009",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F010",
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "development_reviewed",
+      "model": "qwen3:4b",
+      "startedAt": "2026-11-20T06:27:01.226Z",
+      "summary": {
+        "total": 10,
+        "evaluated": 10,
+        "rawModelVerdictCorrect": 6,
+        "rawModelPriorityCorrect": 7,
+        "verdictCorrect": 10,
+        "priorityCorrect": 10,
+        "evidenceValid": 10,
+        "policyChanges": 4,
+        "toolOrderValid": 10,
+        "averageLatencyMs": 25085,
+        "failedOrNoDraft": 0
+      },
+      "cases": [
+        {
+          "id": "F001",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F002",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F003",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F004",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F005",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F006",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F007",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F008",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F009",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F010",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "holdout_reviewed",
+      "model": "qwen3:4b",
+      "startedAt": "2026-11-20T06:31:38.056Z",
+      "summary": {
+        "total": 19,
+        "evaluated": 19,
+        "rawModelVerdictCorrect": 15,
+        "rawModelPriorityCorrect": 18,
+        "verdictCorrect": 17,
+        "priorityCorrect": 18,
+        "evidenceValid": 19,
+        "policyChanges": 2,
+        "toolOrderValid": 19,
+        "averageLatencyMs": 29760,
+        "failedOrNoDraft": 0
+      },
+      "sourceHashes": {
+        "agent": "072ef8f24e53b52f8dead78c5495429271738e4002ad5ae4dc8989594635109e",
+        "policy": "2b1d3a7923883b836cd8d652508f8183b43cbc659ce0436208c46ea9a85694c0",
+        "findings": "0145f62a1afee3eecf8c6412f5124a87fbc5df00821b49060be000e1e2de5d45",
+        "labels": "ab2613544c6ef35877a2b9ed6290dc996cb488425c71b7cae960eaddcf11bbee",
+        "splits": "dcdd1694e5b5aeaf23dc0a929057b131b0083c7bd2c3ef79ca2ae1243e455cc7"
+      },
+      "cases": [
+        {
+          "id": "F012",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": false,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F013",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F014",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F015",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F016",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F017",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F018",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F019",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F020",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F021",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F022",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F023",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F024",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F025",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F026",
+          "rawEvaluation": {
+            "verdictCorrect": false,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F027",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F028",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F029",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        },
+        {
+          "id": "F030",
+          "rawEvaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          },
+          "evaluation": {
+            "verdictCorrect": true,
+            "priorityCorrect": true,
+            "evidenceValid": true
+          }
+        }
+      ]
+    }
+  ]
+}
